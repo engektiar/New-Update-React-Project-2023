@@ -1,1 +1,17 @@
- 
+.Heading {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+.storeBtn {
+  background: #f1c2de;
+  border: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 6px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}

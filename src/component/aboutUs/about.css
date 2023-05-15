@@ -1,0 +1,10 @@
+.aboutMain {
+  text-align: center;
+}
+
+.aboutText {
+  padding: 0px 120px;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+}
