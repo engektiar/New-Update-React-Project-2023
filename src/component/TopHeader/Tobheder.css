@@ -1,0 +1,14 @@
+.topHeaderMain {
+  background: #f1c2de;
+  height: 30px;
+}
+.topHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topHeaderTitle {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

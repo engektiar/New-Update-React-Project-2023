@@ -1,21 +1,13 @@
-import { useState } from "react";
-import "./App.css";
+import Header from "./component/Header/Header";
+import TopHeader from "./component/TopHeader/TopHeader";
+import Banner from "./component/banner/Banner";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h2>React update + vit </h2>
-      <p>
-        <h2>Create korer way</h2>
-        npm create vite@latest
-        <h2> run korer way</h2>
-        npm i npm run dev
-      </p>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-      </div>
+      <TopHeader />
+      <Header />
+      <Banner />
     </>
   );
 }
